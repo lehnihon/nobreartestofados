@@ -1,0 +1,291 @@
+div#content{
+
+	section#sobre-home{
+		padding:80px 0;
+	}
+
+	section#atelie-menu{
+		margin-bottom: 100px;
+
+		ul.btn-atelie{
+			margin:0;
+			padding:0;
+			list-style-type: none;
+			width: 100%;
+			margin: 0 auto;
+
+			li{
+				-webkit-border-radius: 6px; 
+				-moz-border-radius: 6px; 
+				border-radius: 6px; 
+				background-color:#b5ab3a;
+				float:left;
+				width: 13.78%;
+				margin-right: 0.5%;
+				
+				a{
+					padding:10px 10px;
+					color:white;
+					font-family:FuturaBT, Verdana, Geneva, sans-serif;
+					display: block;
+					font-size: 16px;
+				}					
+			}
+
+			li:hover{
+				background-color:#dfd99a;
+			}
+
+			li:last-child{
+				margin-right: 0;
+			}
+		}
+		div.tab-content{
+			div.tab-pane{
+				text-align: left;
+
+				article{
+					padding:20px 0;
+					border-bottom:1px solid #e5e5e5;
+					min-height: 153px;
+				}
+			}
+			
+		}
+	
+	}
+
+	section#servicos{
+		padding-bottom:80px;	
+
+		h4,p{
+			margin: 15px 0;
+		}
+	
+	}
+
+	section#fotos-sobre{
+		padding:80px 0;	
+		background-color:white;
+
+		ul{
+			list-style-type:none;
+			margin-bottom: 20px;
+
+			li{
+				margin: 25px 0px;
+			}
+			li:before{
+				content: "\2713 \00a0";
+				font-weight:bold;
+			}
+		}
+
+		img{
+			float:left;
+			border:5px solid #e8edf1;
+			margin:5px;
+		}
+
+	}
+
+	section.serv-marg{
+		padding-bottom:0 !important;
+	}
+
+	section#maps{
+		background-color:#404040;
+		color: white;
+
+		.detalhes-maps{
+			padding: 25px 0;
+		}
+	}
+
+	section#eventos{
+		padding:80px 0;
+
+		ul.btn-eventos{
+			margin:0;
+			padding:0;
+			list-style-type: none;
+			width: 300px;
+			margin: 0 auto;
+
+			li{
+				-webkit-border-radius: 6px; 
+				-moz-border-radius: 6px; 
+				border-radius: 6px; 
+				background-color:#b5ab3a;
+				float:left;
+				width: 48%;
+				margin-right: 2%;
+				
+				a{
+					padding:10px 10px;
+					color:white;
+					font-family:FuturaBT, Verdana, Geneva, sans-serif;
+					display: block;
+					font-size: 16px;
+				}					
+			}
+
+			li:hover{
+				background-color:#dfd99a;
+			}
+
+			li:last-child{
+				margin-right: 0;
+			}
+		}
+
+		ul.op-eventos{
+			list-style-type:none;
+			margin-bottom: 20px;
+			padding:0;
+
+			li{
+				list-style-type:none;
+				margin: 15px 0px;
+			}
+			li:before{
+				content: "\2713 \00a0";
+				font-weight:bold;
+			}
+		}
+	}
+
+	section#sobre{
+		padding-bottom:40px;
+
+		ul{
+			list-style-type:none;
+			margin-bottom: 20px;
+
+			li{
+				margin: 15px 0px;
+			}
+			li:before{
+				content: "\2713 \00a0";
+				font-weight:bold;
+			}
+		}
+
+		div.fotos-sobre{
+			img{
+				float:left;
+				border:5px solid #e5e5e5;
+				margin:5px;
+			}
+		}	
+	}
+
+	section#form-contato{
+		padding:25px 0;
+		background-color:#f3f2e9;
+
+		div.form-desc{
+			background-color:#baad29;
+			color:white;
+			text-align: left;
+			padding:25px 35px;
+		}
+	}
+
+	section#contato{
+		margin-top: 40px;
+		padding-bottom:40px;
+
+		div.quadro{
+			padding:25px 50px;
+			background-color:#f3f2e9;
+			margin-top: 10px;
+		}
+	}
+
+	section#redes-bot{
+		padding:80px 0;	
+		background-color:white;
+	
+		.redes_sociais_bot{
+			margin-bottom: 5px;
+			height:67px;
+			text-align: left;
+			list-style:none;
+			margin: 0 auto;
+			margin-top: 30px;
+			width: 310px;
+			padding:0;
+		}
+
+		.redes_sociais_bot li:hover{
+		    opacity: 0.6;
+		    filter: alpha(opacity=60); /* For IE8 and earlier */
+		}
+
+		.redes_sociais_bot li{
+			margin: 0 8px;
+		}
+
+		.redes_sociais_bot a{
+			display: inline-block;
+			width:67px;
+			height:67px
+		}
+
+		.redes_sociais_bot .youtube{
+			background-image: url("images/redes-bot.jpg");
+			background-position: left,center;
+			background-repeat:no-repeat;
+			width:67px;
+			height:67px;
+			display:inline-block;		
+		}
+
+		.redes_sociais_bot .instagram{
+			background-image: url("images/redes-bot.jpg");
+			background-position: -87px,center;
+			background-repeat:no-repeat;
+			width:67px;
+			height:67px;
+			display:inline-block;		
+		}
+
+
+		.redes_sociais_bot .facebook{
+			background-image: url("images/redes-bot.jpg");
+			background-position: right,center;
+			background-repeat:no-repeat;
+			width:67px;
+			height:67px;
+			display:inline-block;		
+		}
+	}
+
+}
+@media (max-width: 991px) { 
+	div#content{ 
+		section#atelie-menu{
+			ul.btn-atelie{
+		
+				li{
+					float:none;
+					width: 100%;
+					margin-bottom: 10px;	
+				}
+
+			}
+		
+		}
+
+		section#atelie{
+			div.col-md-4{
+				margin-bottom: 25px;
+			}
+		}
+	}
+}
+
+@media (min-width: 992px) {  
+  
+}

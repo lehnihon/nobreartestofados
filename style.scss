@@ -1,0 +1,212 @@
+/*
+Theme Name: nobreartestofados
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: site
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+site is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+ 
+
+
+#page{
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	color:#373737;
+	text-align:center;
+	background-color: #f6f8fb;
+
+	a{
+		color:#373737;
+	}
+
+	a:hover{
+		text-decoration: none;
+	}
+
+	h1{
+		font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+		margin: 0;
+		margin-bottom: 20px;
+		font-size: 36px;
+	}
+
+	h1.small{
+		font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+		font-size: 26px;
+		font-weight: bold;
+		color:#f0c402;
+	}
+
+
+	h2{
+		font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+		margin: 0;
+		margin-bottom: 20px;
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	h2.amarelo{
+		font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+		font-size: 26px;
+		font-weight: bold;
+		color:#f0c402;
+	}
+
+	h4{
+		font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+		font-size: 20px;
+		font-weight:bold;
+	}
+
+	h5{
+		font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+		font-size:18px;
+		font-weight: normal;
+	}
+
+	.videoWrapperb {
+	    position: relative;
+	    padding-bottom: 56.25%; /* 16:9 */
+	    padding-top: 25px;
+	    height: 0;
+	}
+	.videoWrapperb iframe {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}	
+
+	.videoWrapper {
+	    position: relative;
+	    padding-bottom: 26.25%; /* 16:9 */
+	    padding-top: 25px;
+	    height: 0;
+	}
+	.videoWrapper iframe {
+		pointer-events: none;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}	
+
+	.cor-base{
+		color:#b5ab3a;
+	}
+
+	.btn-saiba-mais{
+		-webkit-border-radius: 6px; 
+		-moz-border-radius: 6px; 
+		border-radius: 6px; 
+		background-color:#404040;
+		padding:10px 45px;
+		color:white;
+		display:inline-block		
+	}
+
+	.btn-saiba-mais:hover{
+		background-color:#8c8c8c;
+	}
+
+	.btn-amarelo{
+		-webkit-border-radius: 6px; 
+		-moz-border-radius: 6px; 
+		border-radius: 6px; 
+		background-color:#f0c402;
+		padding:10px 45px;
+		color:#404040;
+		display:inline-block		
+	}
+
+	.btn-amarelo:hover{
+		background-color:#f6db67;
+	}
+
+	.bx-wrapper .bx-viewport{
+		margin-top: 10px;
+		-webkit-box-shadow: 0 0 0px ; 
+	    box-shadow: 0 0 0px ; 
+	    border: 0px solid white; 
+	    left: 0px;
+
+		.bx-clone{
+		   display: none !important;
+		} 		
+	}
+
+	.btn-receba{ 
+		background-color: #f3f2e9;
+		font-weight:bold;
+		padding:5px 25px;
+		border:0;
+		color:#373737;
+	}
+	.btn-receba:hover{
+		background-color:#F9F8F4;
+	}
+	.input-receba-wrap{
+		margin-bottom: 5px;
+		color:#606060;
+	}
+	.input-receba{
+		border:0;
+		padding:5px
+	}
+
+	.input-contato{
+		border:0;
+		padding:5px;
+		background-color: #f4f4f4;
+	}
+
+	.input-contatob{
+		border:0;
+		padding:5px;
+		background-color: white;
+	}
+
+	.btn-enviar{
+		background-color:#b5ab3a;
+		padding:10px 50px;
+		color:white;
+		border:0;
+		font-weight: bold;
+	}
+	.btn-enviar:hover{
+		background-color:#dad38b;
+	}
+
+	@import 'header';
+	@import 'content';
+	@import 'footer';
+
+
+}
+.e-cinza:hover{
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
+}
+
+.e-claro:hover{
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+

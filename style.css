@@ -1,0 +1,438 @@
+/*
+Theme Name: nobreartestofados
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: site
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+site is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+#page {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #373737;
+  text-align: center;
+  background-color: #f6f8fb; }
+  #page a {
+    color: #373737; }
+  #page a:hover {
+    text-decoration: none; }
+  #page h1 {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 36px; }
+  #page h1.small {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #f0c402; }
+  #page h2 {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold; }
+  #page h2.amarelo {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #f0c402; }
+  #page h4 {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: bold; }
+  #page h5 {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: normal; }
+  #page .videoWrapperb {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0; }
+  #page .videoWrapperb iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #page .videoWrapper {
+    position: relative;
+    padding-bottom: 26.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0; }
+  #page .videoWrapper iframe {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #page .cor-base {
+    color: #b5ab3a; }
+  #page .btn-saiba-mais {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background-color: #404040;
+    padding: 10px 45px;
+    color: white;
+    display: inline-block; }
+  #page .btn-saiba-mais:hover {
+    background-color: #8c8c8c; }
+  #page .btn-amarelo {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background-color: #f0c402;
+    padding: 10px 45px;
+    color: #404040;
+    display: inline-block; }
+  #page .btn-amarelo:hover {
+    background-color: #f6db67; }
+  #page .bx-wrapper .bx-viewport {
+    margin-top: 10px;
+    -webkit-box-shadow: 0 0 0px;
+    box-shadow: 0 0 0px;
+    border: 0px solid white;
+    left: 0px; }
+    #page .bx-wrapper .bx-viewport .bx-clone {
+      display: none !important; }
+  #page .btn-receba {
+    background-color: #f3f2e9;
+    font-weight: bold;
+    padding: 5px 25px;
+    border: 0;
+    color: #373737; }
+  #page .btn-receba:hover {
+    background-color: #F9F8F4; }
+  #page .input-receba-wrap {
+    margin-bottom: 5px;
+    color: #606060; }
+  #page .input-receba {
+    border: 0;
+    padding: 5px; }
+  #page .input-contato {
+    border: 0;
+    padding: 5px;
+    background-color: #f4f4f4; }
+  #page .input-contatob {
+    border: 0;
+    padding: 5px;
+    background-color: white; }
+  #page .btn-enviar {
+    background-color: #b5ab3a;
+    padding: 10px 50px;
+    color: white;
+    border: 0;
+    font-weight: bold; }
+  #page .btn-enviar:hover {
+    background-color: #dad38b; }
+  #page #header {
+    margin-bottom: 20px; }
+    #page #header div.header-logo {
+      padding: 15px 0; }
+      #page #header div.header-logo div.menu-responsivo {
+        position: relative;
+        float: left;
+        margin-top: 30px;
+        padding: 0; }
+      #page #header div.header-logo div.logo-center {
+        text-align: center; }
+      #page #header div.header-logo div.redes {
+        text-align: right; }
+        #page #header div.header-logo div.redes .redes_sociais_header {
+          margin-top: 15px;
+          margin-bottom: 10px;
+          height: 31px;
+          list-style: none;
+          display: inline-block;
+          padding-left: 10px;
+          width: 12a0px; }
+        #page #header div.header-logo div.redes .redes_sociais_header li:hover {
+          opacity: 0.6;
+          filter: alpha(opacity=60);
+          /* For IE8 and earlier */ }
+        #page #header div.header-logo div.redes .redes_sociais_header a {
+          display: inline-block;
+          width: 22px;
+          height: 22px; }
+        #page #header div.header-logo div.redes .redes_sociais_header .youtube {
+          background-image: url("images/redes-top.jpg");
+          background-position: 0px,center;
+          background-repeat: no-repeat;
+          width: 28px;
+          height: 28px;
+          display: inline-block; }
+        #page #header div.header-logo div.redes .redes_sociais_header .twitter {
+          background-image: url("images/redes-top.jpg");
+          background-position: -36px,center;
+          background-repeat: no-repeat;
+          width: 28px;
+          height: 28px;
+          display: inline-block; }
+        #page #header div.header-logo div.redes .redes_sociais_header .facebook {
+          background-image: url("images/redes-top.jpg");
+          background-position: -72px,center;
+          background-repeat: no-repeat;
+          width: 28px;
+          height: 28px;
+          display: inline-block; }
+      #page #header div.header-logo nav {
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 16px; }
+        #page #header div.header-logo nav ul.menu-principal {
+          padding: 0;
+          margin: 0 auto; }
+          #page #header div.header-logo nav ul.menu-principal li {
+            float: left;
+            list-style-type: none; }
+            #page #header div.header-logo nav ul.menu-principal li a {
+              display: inline-block;
+              padding: 10px 18px; }
+            #page #header div.header-logo nav ul.menu-principal li a:hover {
+              text-decoration: none; }
+          #page #header div.header-logo nav ul.menu-principal li:hover {
+            border-bottom: 2px solid #f0c402; }
+  @media (max-width: 991px) {
+    #page div.redes {
+      text-align: left !important;
+      padding: 0 !important; }
+    #page div.header-logo {
+      padding: 0 !important; }
+    #page div.menu-responsivo {
+      width: 50px;
+      text-align: left;
+      display: block;
+      padding: 10px; }
+    #page ul.menu-principal {
+      display: none; } }
+  @media (min-width: 992px) {
+    #page div.menu-responsivo {
+      display: none; }
+    #page ul.menu-principal {
+      display: block; } }
+  #page div#content section#sobre-home {
+    padding: 80px 0; }
+  #page div#content section#atelie-menu {
+    margin-bottom: 100px; }
+    #page div#content section#atelie-menu ul.btn-atelie {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      width: 100%;
+      margin: 0 auto; }
+      #page div#content section#atelie-menu ul.btn-atelie li {
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+        background-color: #b5ab3a;
+        float: left;
+        width: 13.78%;
+        margin-right: 0.5%; }
+        #page div#content section#atelie-menu ul.btn-atelie li a {
+          padding: 10px 10px;
+          color: white;
+          font-family: FuturaBT, Verdana, Geneva, sans-serif;
+          display: block;
+          font-size: 16px; }
+      #page div#content section#atelie-menu ul.btn-atelie li:hover {
+        background-color: #dfd99a; }
+      #page div#content section#atelie-menu ul.btn-atelie li:last-child {
+        margin-right: 0; }
+    #page div#content section#atelie-menu div.tab-content div.tab-pane {
+      text-align: left; }
+      #page div#content section#atelie-menu div.tab-content div.tab-pane article {
+        padding: 20px 0;
+        border-bottom: 1px solid #e5e5e5;
+        min-height: 153px; }
+  #page div#content section#servicos {
+    padding-bottom: 80px; }
+    #page div#content section#servicos h4, #page div#content section#servicos p {
+      margin: 15px 0; }
+  #page div#content section#fotos-sobre {
+    padding: 80px 0;
+    background-color: white; }
+    #page div#content section#fotos-sobre ul {
+      list-style-type: none;
+      margin-bottom: 20px; }
+      #page div#content section#fotos-sobre ul li {
+        margin: 25px 0px; }
+      #page div#content section#fotos-sobre ul li:before {
+        content: "\2713 \00a0";
+        font-weight: bold; }
+    #page div#content section#fotos-sobre img {
+      float: left;
+      border: 5px solid #e8edf1;
+      margin: 5px; }
+  #page div#content section.serv-marg {
+    padding-bottom: 0 !important; }
+  #page div#content section#maps {
+    background-color: #404040;
+    color: white; }
+    #page div#content section#maps .detalhes-maps {
+      padding: 25px 0; }
+  #page div#content section#eventos {
+    padding: 80px 0; }
+    #page div#content section#eventos ul.btn-eventos {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      width: 300px;
+      margin: 0 auto; }
+      #page div#content section#eventos ul.btn-eventos li {
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+        background-color: #b5ab3a;
+        float: left;
+        width: 48%;
+        margin-right: 2%; }
+        #page div#content section#eventos ul.btn-eventos li a {
+          padding: 10px 10px;
+          color: white;
+          font-family: FuturaBT, Verdana, Geneva, sans-serif;
+          display: block;
+          font-size: 16px; }
+      #page div#content section#eventos ul.btn-eventos li:hover {
+        background-color: #dfd99a; }
+      #page div#content section#eventos ul.btn-eventos li:last-child {
+        margin-right: 0; }
+    #page div#content section#eventos ul.op-eventos {
+      list-style-type: none;
+      margin-bottom: 20px;
+      padding: 0; }
+      #page div#content section#eventos ul.op-eventos li {
+        list-style-type: none;
+        margin: 15px 0px; }
+      #page div#content section#eventos ul.op-eventos li:before {
+        content: "\2713 \00a0";
+        font-weight: bold; }
+  #page div#content section#sobre {
+    padding-bottom: 40px; }
+    #page div#content section#sobre ul {
+      list-style-type: none;
+      margin-bottom: 20px; }
+      #page div#content section#sobre ul li {
+        margin: 15px 0px; }
+      #page div#content section#sobre ul li:before {
+        content: "\2713 \00a0";
+        font-weight: bold; }
+    #page div#content section#sobre div.fotos-sobre img {
+      float: left;
+      border: 5px solid #e5e5e5;
+      margin: 5px; }
+  #page div#content section#form-contato {
+    padding: 25px 0;
+    background-color: #f3f2e9; }
+    #page div#content section#form-contato div.form-desc {
+      background-color: #baad29;
+      color: white;
+      text-align: left;
+      padding: 25px 35px; }
+  #page div#content section#contato {
+    margin-top: 40px;
+    padding-bottom: 40px; }
+    #page div#content section#contato div.quadro {
+      padding: 25px 50px;
+      background-color: #f3f2e9;
+      margin-top: 10px; }
+  #page div#content section#redes-bot {
+    padding: 80px 0;
+    background-color: white; }
+    #page div#content section#redes-bot .redes_sociais_bot {
+      margin-bottom: 5px;
+      height: 67px;
+      text-align: left;
+      list-style: none;
+      margin: 0 auto;
+      margin-top: 30px;
+      width: 310px;
+      padding: 0; }
+    #page div#content section#redes-bot .redes_sociais_bot li:hover {
+      opacity: 0.6;
+      filter: alpha(opacity=60);
+      /* For IE8 and earlier */ }
+    #page div#content section#redes-bot .redes_sociais_bot li {
+      margin: 0 8px; }
+    #page div#content section#redes-bot .redes_sociais_bot a {
+      display: inline-block;
+      width: 67px;
+      height: 67px; }
+    #page div#content section#redes-bot .redes_sociais_bot .youtube {
+      background-image: url("images/redes-bot.jpg");
+      background-position: left,center;
+      background-repeat: no-repeat;
+      width: 67px;
+      height: 67px;
+      display: inline-block; }
+    #page div#content section#redes-bot .redes_sociais_bot .instagram {
+      background-image: url("images/redes-bot.jpg");
+      background-position: -87px,center;
+      background-repeat: no-repeat;
+      width: 67px;
+      height: 67px;
+      display: inline-block; }
+    #page div#content section#redes-bot .redes_sociais_bot .facebook {
+      background-image: url("images/redes-bot.jpg");
+      background-position: right,center;
+      background-repeat: no-repeat;
+      width: 67px;
+      height: 67px;
+      display: inline-block; }
+  @media (max-width: 991px) {
+    #page div#content section#atelie-menu ul.btn-atelie li {
+      float: none;
+      width: 100%;
+      margin-bottom: 10px; }
+    #page div#content section#atelie div.col-md-4 {
+      margin-bottom: 25px; } }
+  #page #footer {
+    text-align: left; }
+    #page #footer div.footer-content {
+      padding: 50px 0;
+      background-color: #f0c402; }
+      #page #footer div.footer-content ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none; }
+        #page #footer div.footer-content ul a {
+          color: #FFFFFF; }
+        #page #footer div.footer-content ul a:hover {
+          color: #fff40e; }
+    #page #footer div.copyrino {
+      text-align: center;
+      color: #606060;
+      background-color: #f6f8fb;
+      padding: 20px 0; }
+      #page #footer div.copyrino .col-md-10 {
+        padding: 12px; }
+        #page #footer div.copyrino .col-md-10 a {
+          color: #606060; }
+        #page #footer div.copyrino .col-md-10 a:hover {
+          color: #bfbfbf; }
+
+.e-cinza:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
+.e-claro:hover {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  /* For IE8 and earlier */ }
+
+/*# sourceMappingURL=style.css.map */
