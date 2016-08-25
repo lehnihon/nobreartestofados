@@ -13,10 +13,14 @@ get_header(); ?>
 			<div class="row">
 				<div class="col-md-12 text-left">
 					<p>
-						A Nobre Arte Design é pioneira em reforma de estofados. Nossa equipe treinada e capacitada realiza uma pesquisa prévia com o cliente com o intuito de compreender a real necessidade e passamos todo um feedback com as opções de melhoria das peças.
+						A reforma de estofados é uma solução interessante para quem busca mudar o visual de cada ambiente valorizando-o ainda mais ou para quem busca uma renovação do 
+móvel. Oferecemos o serviço completo de Reforma de Estofados, o que inclue capas de sofás, poltronas, puffs, cadeiras, almofadas, colchas etc.
+
 					</p>
 					<p>
-						Trabalhamos com os principais fornecedores do mercado de tapeçaria e decoração para garantir que a sua reforma supere todas as expectativas.
+						Para a Nobre Arte, o sucesso na Reforma dos Estofadas depende muito da qualidade dos materiais oferecidos e da excelente mão de obra. Trabalhamos com os principais 
+fornecedores do mercado de tapeçaria e decoração para garantir que a sua reforma supere todas as expectativas.
+
 					</p>
 				</div>
 			</div>
@@ -27,20 +31,24 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7 text-left">
-					<h2 class="amarelo">A Tapeçaria Tatuapé reforma</h2>
-					<p class="">Executamos orçamentos sem compromisso por e-mail, whatsApp e pessoalmente. Realizamos também todo o processo de retirada, entrega e montagem das peças, com equipe própria especializada para assegurar a total segurança e qualidade dos serviços. <br>
-					A Tapeçaria Tatuapé vai superar todas as suas expectativas, solicite um orçamentosem compromisso.
+					<h2 class="amarelo">Reforma de Estofadas no Tatuapé</h2>
+					<p class="">Executamos orçamentos sem compromisso por e-mail, telefone e pessoalmente. <br>
+					Realizamos também todo o processo de retirada, entrega e montagem do móvel com a
+nossa equipe especializada, tudo isso para assegurar total segurança e qualidade dos 
+nossos serviços de Reforma de Estofados. <br>
+Entre em contato conosco e tenha a qualidade e profissionalismo de uma das mais 
+tradicionais tapeçarias da região do Tatuapé.
+
 
 					</p>
 					<ul>
-						<li>Sofás</li>
-						<li>Cadeiras</li>
-						<li>Poltronas e puffs</li>
-						<li>Bancos e diversos itens estofados</li>
+						<li>Reforma de Sofás</li>
+						<li>Reforma de cadeiras e poltronas</li>
+						<li>Reforma de bancos e puffs,</li>
+						<li>Reforma de Estofados em geral.</li>
 					</ul>
 				</div>
 				<div class="col-md-5 text-left">
-					<h4>Fotos</h4>
 					
 					<div class="row">
 						<div class="col-md-6">

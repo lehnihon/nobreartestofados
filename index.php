@@ -58,19 +58,23 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7 text-left">
-					<h2 class="amarelo">Tapeçaria e Reforma de Estofados no Tatuapé</h2>
-					<p class="">A Nobre Arte Desig é uma tapeçaria com vasta experiência em reforma de estofados em geral, com atendimento diferenciado e garantia em todos os serviços prestados. <br>
-					A Tapeçaria Nobre Arte Design é uma empresa especializada em reforma de todos os tipos de sofá, estofados em geral, puffs, cadeiras de sala de jantar, poltronas e também fabricamos cabeçeiras personalizadas de acordo com a sua necessidade. 
+					<h2 class="amarelo">Reforma de Estofados no Tatuapé</h2>
+					<p class="">A Nobre Arte Design garante totalmente a qualidade de seus serviços e produtos 
+utilizados, além da mão de obra especializada e toda a experiência para concluir 
+perfeitamente o serviço da Reforma de Estofados. <br>
+					Executamos orçamentos sem compromisso por e-mail, whatsApp e pessoalmente.<br>
+Entre em contato conosco e tenha a qualidade que seu estofado merece!
+
 					</p>
 					<ul>
-						<li>Reforma de estofados em geral</li>
-						<li>Showroom localizada no Tatuapé</li>
-						<li>Atendimento diferenciado</li>
-						<li>Equipe especializada</li>
+						<li>Reforma de sofás, </li>
+						<li>cadeiras e bancos,</li>
+						<li>poltronas e puffs, </li>
+						<li>reforma de estofados em geral.</li>
 					</ul>
+					<a href="<?php echo esc_url( home_url( '/' ) )."sobre"; ?>" class="btn-amarelo">CONFIRA</a>
 				</div>
 				<div class="col-md-5 text-left">
-					<h4>Fotos</h4>
 					
 					<div class="row">
 						<div class="col-md-6">
