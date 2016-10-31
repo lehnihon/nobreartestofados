@@ -125,11 +125,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     color: #606060; }
   #page .input-receba {
     border: 0;
-    padding: 5px; }
+    padding: 10px;
+    width: 350px;
+    border-radius: 3px; }
   #page .input-contato {
     border: 0;
     padding: 5px;
-    background-color: #f4f4f4; }
+    background-color: white; }
   #page .input-contatob {
     border: 0;
     padding: 5px;
