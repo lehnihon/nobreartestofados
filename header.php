@@ -50,7 +50,7 @@
 						</div>
 						<nav>
 							<ul class="menu-principal clearfix">
-								<li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li
+								<li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>" style="padding-right: 0px">Contato</a></li
 								><li><a href="<?php echo esc_url( home_url( '/' ) )."reforma-de-estofados"; ?>">Reforma de Estofados</a></li
 								><li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Nobre Arte Design</a></li
 								><li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Início</a></li>

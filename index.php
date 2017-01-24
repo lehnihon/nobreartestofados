@@ -37,8 +37,7 @@ get_header(); ?>
 				<div class="col-md-6 text-left">
 					<p>
 						Realizamos sem compromisso um orçamento detalhado dos serviços e produtos 
-						que serão utilizados na reforma do estofado e fornecemos todo o suporte de 
-						retirada e entrega na casa do cliente.						
+						que serão utilizados e fornecemos todo o suporte de retirada e entrega no cliente.						
 					</p>
 					<p>
 						A Nobre Arte Design conta com uma equipe especializada em desmontagem e 
@@ -66,7 +65,7 @@ perfeitamente o serviço da Reforma de Estofados. <br>
 Entre em contato conosco e tenha a qualidade que seu estofado merece!
 
 					</p>
-					<ul>
+					<ul style="padding-left: 0px">
 						<li>Reforma de sofás, </li>
 						<li>cadeiras e bancos,</li>
 						<li>poltronas e puffs, </li>
@@ -104,9 +103,7 @@ Entre em contato conosco e tenha a qualidade que seu estofado merece!
 				<div class="col-md-12">
 					<h2 class="amarelo">Localização da Tapeçaria</h2>
 					<p>
-						Rua São Jorge, 86 - Tatuapé, São Paulo - SP
-					</p>
-					<p>
+						Rua São Jorge, 86 - Tatuapé, São Paulo - SP<br>
 						<strong>Telefone.: </strong>11 3938-0200 <strong>Email.: </strong>contato@nobreartedesign.com.br
 					</p>
 				</div>

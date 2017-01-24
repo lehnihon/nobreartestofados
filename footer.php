@@ -14,7 +14,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						&copy; Copyright <?php echo date('Y') ?> -  Tapeçaria Nobre Arte Design | <a target="_blank" href="http://agenciarino.com.br/">Site desenvolvido pela Agência Rino.</a>
+						&copy; Copyright <?php echo date('Y') ?> -  Tapeçaria Nobre Arte Design | <a href="https://www.facebook.com/seimidigital/?ref=ts&fref=ts"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/seimi.png"; ?>" /></a>
 					</div>
 				</div>	
 			</div>	

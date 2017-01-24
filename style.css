@@ -113,11 +113,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page .bx-wrapper .bx-viewport .bx-clone {
       display: none !important; }
   #page .btn-receba {
-    background-color: #f3f2e9;
+    background-color: black;
     font-weight: bold;
-    padding: 5px 25px;
+    padding: 10px 50px;
     border: 0;
-    color: #373737; }
+    color: white;
+    border-radius: 5px; }
   #page .btn-receba:hover {
     background-color: #F9F8F4; }
   #page .input-receba-wrap {
@@ -126,7 +127,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page .input-receba {
     border: 0;
     padding: 10px;
-    width: 350px;
+    width: 395px;
     border-radius: 3px; }
   #page .input-contato {
     border: 0;
